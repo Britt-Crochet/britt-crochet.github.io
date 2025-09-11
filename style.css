@@ -54,14 +54,13 @@ h1 {
   padding: 20px;
   margin: 40px auto;
   max-width: 1000px;
-  background-color: #fff;
   border-radius: 8px;
 }
 /* Flex Wrapper for Text + Image */
 .content-wrapper {
   display: flex;
   flex-wrap: wrap;          
-  align-items: center;
+  align-items: flex-start;
   gap: 20px;
 }
 /* Text Column */
