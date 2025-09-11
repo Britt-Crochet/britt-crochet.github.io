@@ -58,6 +58,5 @@ h1 {
   padding: 20px;            /* space inside */
   margin: 40px auto;        /* space outside, centers on page */
   max-width: 800px;         /* keeps content readable */
-  background-color: #fff;   /* optional: white background */
   border-radius: 8px;       /* optional: rounded corners */
 }
