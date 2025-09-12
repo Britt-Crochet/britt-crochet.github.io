@@ -108,4 +108,19 @@ h1 {
 .content-box a:hover {
   text-decoration: underline;
 }
+/*etsy link*/
+.etsy-link {
+  text-align: left;   
+  margin-top: 20px;      
+}
+
+.etsy-link img {
+  height: 50px;          
+  width: auto;
+  transition: transform 0.2s ease; 
+}
+
+.etsy-link img:hover {
+  transform: scale(1.1); 
+}
 
