@@ -5,6 +5,7 @@ body {
   margin: 0;
   font-family: Verdana, Geneva, sans-serif;
 }
+
 /* Navigation */
 nav {
   padding: 20px 0;
@@ -27,6 +28,7 @@ nav a {
 nav a:hover {
   text-decoration: underline;
 }
+
 /* Home icon / Logo */
 .home-icon img {
   height: 100px;
@@ -37,6 +39,7 @@ nav a:hover {
   left: 20px;
   top: 20px;
 }
+
 /* Page Titles / Hero */
 h1 {
   text-align: center;
@@ -49,6 +52,7 @@ h1 {
   text-align: center;
   padding: 40px 20px;
 }
+
 /* Content Box */
 .content-box {
   border: 2px solid black;   
@@ -57,18 +61,17 @@ h1 {
   max-width: 1000px;
   border-radius: 8px;
 }
-/* Flex Wrapper for Text + Image */
+
+/* Flex Wrapper (Text + Image) */
 .content-wrapper {
   display: flex;
   flex-wrap: wrap;          
   align-items: flex-start;
   gap: 20px;
 }
-/* Text Column */
 .text-column {
   flex: 1 1 300px;          
 }
-/* Image Column */
 .image-column {
   flex: 1 1 300px;
   text-align: center;
@@ -78,7 +81,8 @@ h1 {
   height: auto;
   border-radius: 8px;      
 }
-/* steps section*/
+
+/* Steps Section (Homepage) */
 .steps {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -98,43 +102,44 @@ h1 {
   font-size: 1.5rem;
   margin: 10px 0;
 }
+
 /* Links inside content */
 .content-box a {
   color: #333;
   font-weight: 700;
   text-decoration: none;
 }
-
 .content-box a:hover {
   text-decoration: underline;
 }
-/*etsy link*/
+
+/* Etsy Link */
 .etsy-link {
   text-align: left;   
   margin-top: 20px;      
 }
-
 .etsy-link img {
   height: 50px;          
   width: auto;
   transition: transform 0.2s ease; 
 }
-
 .etsy-link img:hover {
   transform: scale(1.1); 
 }
+
+/* Default Subpage Titles */
 .content-box h2 {
   text-align: center;
   font-size: 2rem;
   margin-bottom: 20px;
-  border: 2px solid #333;   /* box around the title */
+  border: 2px solid #333;
   display: inline-block;
   padding: 10px 20px;
   border-radius: 6px;
   background-color: #f8f6f5;
 }
 
-/* portrait */
+/* About Me Page */
 .about .text-column {
   flex: 2;
 }
@@ -142,27 +147,43 @@ h1 {
   flex: 1;
 }
 
-/* 2 column setup*/
-.learn-wrapper {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 20px;
-}
-.instruction-column {
-  flex: 1 1 300px;
-}
-.learn-wrapper .image-column {
-  flex: 1 1 300px;
+/* Learn to Crochet Page */
+/* new title */
+.learn h2 {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 30px;
+  border: none;
+  background: none;
+  display: block;
+  padding: 0;
 }
 
-/* Patterns page */
+/* Grid layout  for learn*/
+.learn-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px 40px;
+  align-items: center;
+}
+.learn-grid .step-text {
+  font-size: 1.1rem;
+  line-height: 1.5;
+}
+.learn-grid .step-image img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 6px;
+}
+
+/* Patterns Page */
 .patterns {
   text-align: center;
   font-size: 1.2rem;
   line-height: 1.6;
 }
 
-/* blog posts */
+/* Blog Posts */
 .blog-post {
   margin-bottom: 40px;
 }
