@@ -148,7 +148,6 @@ h1 {
 }
 
 /* Learn to Crochet Page */
-/* new title */
 .learn h2 {
   text-align: center;
   font-size: 2rem;
@@ -159,23 +158,32 @@ h1 {
   padding: 0;
 }
 
-/* Grid layout  for learn*/
+/* Grid layout with vertical divider */
 .learn-grid {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr;  /* text column + image column */
   gap: 20px 40px;
   align-items: center;
 }
+
+/* Left column (text) */
 .learn-grid .step-text {
   font-size: 1.1rem;
   line-height: 1.5;
+  padding-right: 20px;
+  border-right: 2px solid #333;  /* vertical divider */
+}
+
+/* Right column (image) */
+.learn-grid .step-image {
+  padding-left: 20px;
+  text-align: center;
 }
 .learn-grid .step-image img {
   max-width: 100%;
   height: auto;
   border-radius: 6px;
 }
-
 /* Patterns Page */
 .patterns {
   text-align: center;
