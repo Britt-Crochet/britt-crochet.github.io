@@ -123,4 +123,52 @@ h1 {
 .etsy-link img:hover {
   transform: scale(1.1); 
 }
+.content-box h2 {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 20px;
+  border: 2px solid #333;   /* box around the title */
+  display: inline-block;
+  padding: 10px 20px;
+  border-radius: 6px;
+  background-color: #f8f6f5;
+}
 
+/* portrait */
+.about .text-column {
+  flex: 2;
+}
+.about .image-column {
+  flex: 1;
+}
+
+/* 2 column setup*/
+.learn-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.instruction-column {
+  flex: 1 1 300px;
+}
+.learn-wrapper .image-column {
+  flex: 1 1 300px;
+}
+
+/* Patterns page */
+.patterns {
+  text-align: center;
+  font-size: 1.2rem;
+  line-height: 1.6;
+}
+
+/* blog posts */
+.blog-post {
+  margin-bottom: 40px;
+}
+.blog-post .content-box {
+  padding: 30px;
+}
+.blog-post h2 {
+  margin-bottom: 15px;
+}
