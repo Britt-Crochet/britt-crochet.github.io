@@ -115,16 +115,18 @@ h1 {
 
 /* Etsy Link */
 .etsy-link {
-  text-align: left;   
-  margin-top: 20px;      
+  text-align: left;
+  margin-top: 20px;
 }
+
 .etsy-link img {
-  height: 50px;          
+  height: 50px;
   width: auto;
-  transition: transform 0.2s ease; 
+  transition: transform 0.2s ease;
 }
+
 .etsy-link img:hover {
-  transform: scale(1.1); 
+  transform: scale(1.1);
 }
 
 /* Default Subpage Titles */
