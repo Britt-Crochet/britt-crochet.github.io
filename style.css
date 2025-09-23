@@ -201,3 +201,55 @@ h1 {
 .blog-post h2 {
   margin-bottom: 15px;
 }
+/* Section navigation links at the top */
+.section-links {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.section-links a {
+  color: #333;
+  font-weight: 600;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+.section-links a:hover {
+  text-decoration: underline;
+}
+
+/* Section titles inside Learn page */
+.learn h3 {
+  font-size: 1.6rem;
+  margin: 40px 0 20px;
+  text-align: center;         
+  border-bottom: 2px solid #333;
+  padding-bottom: 5px;
+}
+
+/* Learn grid refinements */
+.learn-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px 40px;     
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.learn-grid .step-text {
+  font-size: 1.1rem;
+  line-height: 1.5;
+  padding-right: 20px;
+}
+
+.learn-grid .step-image {
+  padding-left: 20px;
+  text-align: center;
+  border-left: 2px solid #333;  /* vertical divider */
+}
+
+.learn-grid .step-image img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 6px;
+}
