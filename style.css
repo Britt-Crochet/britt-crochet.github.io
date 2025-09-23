@@ -101,6 +101,13 @@ h1 {
   font-size: 1.5rem;
   margin: 10px 0;
 }
+.step-title {
+  font-size: 1.25rem;   /* Adjust size as needed */
+  font-weight: 700;     /* Bold */
+  color: #222;          /* Optional: dark color for contrast */
+  display: inline-block; /* Keeps it on its own line if needed */
+  margin-bottom: 5px;   /* Space below the title */
+}
 
 /* Links inside content */
 .content-box a {
