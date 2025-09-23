@@ -80,6 +80,13 @@ h1 {
   height: auto;
   border-radius: 8px;      
 }
+.section-blurb {
+  max-width: 1000px; /* same width as content box/grid */
+  margin: 0 auto 20px auto; /* center and add spacing below */
+  font-size: 1.1rem;
+  line-height: 1.5;
+  text-align: center; /* optional: center text */
+}
 
 /* steps for learn */
 .steps {
@@ -102,11 +109,11 @@ h1 {
   margin: 10px 0;
 }
 .step-title {
-  font-size: 1.25rem;   /* Adjust size as needed */
-  font-weight: 700;     /* Bold */
-  color: #222;          /* Optional: dark color for contrast */
-  display: inline-block; /* Keeps it on its own line if needed */
-  margin-bottom: 5px;   /* Space below the title */
+  font-size: 1.25rem;   
+  font-weight: 700;     
+  color: #222;          
+  display: inline-block; 
+  margin-bottom: 5px;   
 }
 
 /* Links inside content */
