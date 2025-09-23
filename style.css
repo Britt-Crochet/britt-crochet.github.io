@@ -170,8 +170,13 @@ h1 {
   font-size: 1.1rem;
   line-height: 1.5;
   padding-right: 20px;
-  
 }
+  .step-text strong {
+  font-size: 1.4rem;
+  color: #222;
+}
+  
+
 
 /* Right column (image) */
 .learn-grid .step-image {
