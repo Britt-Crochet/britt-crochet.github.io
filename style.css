@@ -1,12 +1,14 @@
 /* General Setup */
 .banner {
-  width: 100%;
+  width: 1000px;
   overflow: hidden;
+  margin: 0 auto;
 }
 
 .banner img {
-  width: 100%;       
-  height: auto;       
+  width: 1000px;       
+  height: auto;
+  object-fit: cover;
   display: block; 
 
 body {
