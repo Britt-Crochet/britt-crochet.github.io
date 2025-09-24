@@ -1,15 +1,24 @@
 /* General Setup */
-.banner {
-  width: 800px;
-  overflow: hidden;
+
+header {
+  display: flex;
+  align-items: center;   
+  justify-content: space-between;
+  max-width: 1000px;
   margin: 0 auto;
-  display: block;
+  padding: 10px 20px;
+
+.banner {
+  width: 300px;
+  
+  margin: 0 auto;
+  
 }
 
 .banner img {
-  width: 800px;       
+  width: auto;       
   height: auto;
-  object-fit: cover;
+ 
   display: block; 
 }
 
@@ -22,17 +31,17 @@ body {
 
 /* Navigation */
 nav {
-  padding: 20px 0;
+  padding: 0;
   display: flex;
   justify-content: center;
   position: relative; 
 }
 nav ul {
+ display: flex;
+  gap: 40px;
   list-style: none;
   margin: 0;
   padding: 0;
-  display: flex;
-  gap: 40px;
 }
 nav a {
   text-decoration: none;
