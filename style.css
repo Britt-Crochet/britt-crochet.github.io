@@ -201,6 +201,18 @@ h1 {
   font-size: 1.2rem;
   line-height: 1.6;
 }
+.pattern-instructions {
+  text-align: left;
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+.pattern-instructions p {
+  margin-bottom: 15px;
+}
+.pattern-instructions em {
+  font-size: 0.95rem;
+  color: #555;
+}
 
 /* Blog Posts */
 .blog-post {
