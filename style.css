@@ -41,16 +41,6 @@ nav a:hover {
   text-decoration: underline;
 }
 
-/* Home icon / Logo */
-.home-icon img {
-  height: 100px;
-  width: auto;
-}
-.home-icon {
-  position: absolute;
-  left: 20px;
-  top: 20px;
-}
 
 /* Page Titles */
 h1 {
