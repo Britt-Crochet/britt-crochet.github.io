@@ -1,4 +1,27 @@
 /* General Setup */
+.banner {
+  background-image: url("banner.png"); 
+  background-size: cover;
+  background-position: center;
+  height: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-align: center;
+}
+
+.banner h1 {
+  font-size: 3rem;
+  margin: 0;
+}
+
+.banner p {
+  font-size: 1.25rem;
+  margin: 10px 0 0;
+}
+
+
 body {
   font-weight: 400;
   background-color: #e7dfd8;
