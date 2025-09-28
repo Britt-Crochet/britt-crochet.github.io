@@ -93,11 +93,11 @@ h1 {
   border-radius: 8px;      
 }
 .section-blurb {
-  max-width: 1000px; /* same width as content box/grid */
-  margin: 0 auto 20px auto; /* center and add spacing below */
+  max-width: 1000px; 
+  margin: 0 auto 20px auto;
   font-size: 1.1rem;
   line-height: 1.5;
-  text-align: center; /* optional: center text */
+  text-align: center; 
 }
 
 /* steps for learn */
@@ -280,7 +280,7 @@ h1 {
 .learn-grid .step-image {
   padding-left: 20px;
   text-align: center;
-  border-left: 2px solid #333;  /* vertical divider */
+  border-left: 2px solid #333; 
 }
 
 .learn-grid .step-image img {
