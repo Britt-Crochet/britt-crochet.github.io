@@ -48,5 +48,28 @@
       <p><em>Original pattern source: <a href="https://theturtletrunk.com/farmhouse-dish-set-crochet-pattern/" target="_blank">The Turtle Trunk</a></em></p>
     </div>
   </div>
+    <!-- JavaScript -->
+<script>
+   
+const currentPage = window.location.pathname.split("/").pop();
+	document.querySelectorAll("nav a").forEach(link => {
+  	if (link.getAttribute("href") === currentPage) {
+        link.style.textDecoration = "underline";
+        link.style.color = "#b45f06"; 
+        }
+   });
+// crochet tips
+const tips = [
+  "Use stitch markers to keep track of rounds!",
+  "Don’t crochet too tightly, it makes learning harder.",
+  "Cotton blend yarn is great for beginners.",
+  "Always make a gauge swatch for patterns.",
+  "Take breaks to avoid hand fatigue!"
+  ];
+const randomTip = tips[Math.floor(Math.random() * tips.length)];
+	document.getElementById("crochetTip").innerText = "💡 Tip: " + randomTip;
+    </script>
+  </body>
+</html>
   </body>
 </html>
